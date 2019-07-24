@@ -2,7 +2,7 @@
 This is a minimal setup created using [create-react-app](https://github.com/facebook/create-react-app). I shows you how exactly you can integrate a Google Login in your own React-based app
 
 ## Demo
-<img src="/src/imgs/siginwithgoogledemo.gif">
+<img src="/src/imgs/signinwithgoogledemo.gif">
 
 ## How to run?
 ### Pre-requisites
