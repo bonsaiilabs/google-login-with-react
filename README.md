@@ -6,7 +6,7 @@ This is a minimal setup created using [create-react-app](https://github.com/face
 You need to create a `CLIENT_ID` using this [link](https://developers.google.com/identity/sign-in/web/sign-in?authuser=1)
 Here is a demo for how to create `CLIENT_ID`  
 
-<img src="/src/imgs/signinwithgoogle.gif?raw=true">
+<img src="/src/imgs/siginwithgoogle.gif">
 
 
 ### How to run?
