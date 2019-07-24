@@ -30,8 +30,8 @@ class LoginButton extends React.Component {
         console.log('rendering google signin button');
         window.gapi.signin2.render('my-signin2', {
             'scope': 'profile email',
-            'width': 200,
-            'height': 50,
+            'width': 250,
+            'height': 40,
             'longtitle': true,
             'theme': 'light',
             'onsuccess': this.onSignIn
@@ -63,7 +63,7 @@ class LoginButton extends React.Component {
             <div id='my-signin2'></div>
             <br />
               {this.state.isLoggedIn &&
-              <button style={{width: 200, height: 50, textAlign: 'center'}} onClick={this.logout}>
+              <button style={{width: 200, height: 40, textAlign: 'center'}} onClick={this.logout}>
                   Logout
               </button>
               }
