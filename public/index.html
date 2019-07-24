@@ -19,7 +19,12 @@
     <script type="text/javascript">
         function triggerGoogleLoaded() {
           console.log("google event loaded");
-          window.dispatchEvent(new Event('google-loaded'));
+            gapi.load('auth2', () => {
+                gapi.auth2.init({ client_id: '870967407366-30ujg0nn7i5gcjbn8p0monc5t2tbe4hs.apps.googleusercontent.com' }).then(() => {
+                    // DO NOT ATTEMPT TO RENDER BUTTON UNTIL THE 'Init' PROMISE RETURNS
+                    window.dispatchEvent(new Event('google-loaded'));
+                });
+            });
         }
     </script>
 </head>
