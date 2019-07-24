@@ -1,4 +1,3 @@
-/* global gapi */
 import React from 'react';
 
 class LoginButton extends React.Component {
