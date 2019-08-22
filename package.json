@@ -5,7 +5,7 @@
   "dependencies": {
     "prettier": "^1.18.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
     "react-scripts": "^3.0.1"
